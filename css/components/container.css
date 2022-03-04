@@ -1,0 +1,39 @@
+.container {
+	width: auto;
+	margin: auto;
+	margin-top: 100px;
+	justify-items: auto;
+	margin-bottom: 30px;
+}
+
+
+.container h4 {
+	font-size: 40px;
+	font-weight: bolder;
+	text-align: center;
+	margin-top: -10px;
+}
+
+
+.container h2 {
+	font-size: 20px;
+	font-weight: lighter;
+}
+
+
+@media (max-width: 960px) {
+	.container {
+		width: 700px;
+	}
+}
+@media (max-width: 720px) {
+	.container {
+		width: 500px;
+	}
+}
+@media (max-width: 540px) {
+	.container {
+		width: 300px;
+		background: red;
+	}
+}

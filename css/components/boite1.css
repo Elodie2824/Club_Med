@@ -1,0 +1,11 @@
+.boite1 img{
+	width: 300px;
+
+}
+
+.boite1 {
+	background: blue;
+	width: 400px;
+	text-align: center;
+	margin: auto;
+}

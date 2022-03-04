@@ -1,0 +1,35 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Lora&family=Roboto+Slab:wght@100&display=swap);
+
+@import url("components/container.css");
+@import url("components/destinations.css");
+@import url("components/Buttons.css");
+@import url("components/banner.css");
+@import url("components/newcard.css");
+@import url("components/boite1.css");
+
+
+body {
+	font-family: 'Lora', serif;
+	font-size: 18px;
+
+}
+
+h1,h2,h3 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+}
+a { 
+	text-decoration: none; 
+}
+
+
+
+
+/* background-image : url ("background.jpeg");
+background-size : cover ;
+background-position : center; */
+
+/* Pour grossir des boites, flex-basis: 200px;
+Pour que le last item aille à la ligne : flex-wrap: wrap;
+flex-grow: 1; les boites prennent toute la ligne
